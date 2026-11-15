@@ -257,6 +257,21 @@
   line-height: 1.55;
 }
 
+.case-link {
+  display: inline-flex;
+  gap: 6px;
+  margin-top: 18px;
+  color: var(--green-800);
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.case-link:hover {
+  color: var(--green-700);
+  text-decoration: underline;
+}
+
 .feature-section {
   padding-block: 118px;
   color: #fff;
